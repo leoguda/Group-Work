@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(6, 6, 154);
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+p {
+  color: aliceblue;
+  cursor: text;
+  display: block;
+  font-size: large;
+}
+.number,
+.mail {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.number:hover {
+  color: rgb(255, 83, 83);
+}
+.mail:hover {
+  color: rgb(255, 83, 83);
+}
+h3 {
+  color: antiquewhite;
+  cursor: default;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(255, 83, 83);
+}
+.inst {
+  border: none;
+  width: 350px;
+  height: 250px;
+}
+img {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+.travelo1 {
+  display: inline;
+  padding: 0 10px 10px 10px;
+}
+i {
+  color: aliceblue;
+}
+i:hover {
+  color: rgb(255, 83, 83);
+}
