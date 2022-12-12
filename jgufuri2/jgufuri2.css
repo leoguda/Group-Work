@@ -1,0 +1,85 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(6, 6, 154);
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+p {
+  color: aliceblue;
+  cursor: default;
+  display: block;
+  font-size: large;
+
+  padding: 0 3px;
+}
+.number,
+.mail {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.number:hover {
+  color: rgb(255, 83, 83);
+}
+.mail:hover {
+  color: rgb(255, 83, 83);
+}
+h3 {
+  color: antiquewhite;
+  cursor: default;
+}
+li {
+  list-style: none;
+
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(255, 83, 83);
+}
+.gallary {
+  border: none;
+  width: 350px;
+  height: 250px;
+}
+.footer-img {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  transition: 2s;
+}
+img:hover {
+  transform: scale(2, 2);
+  transition: 1.5s;
+  position: static;
+}
+.travelo1 {
+  display: inline;
+}
+i {
+  color: aliceblue;
+  transition: 0.5s;
+  transform: scale(1, 1);
+  cursor: pointer;
+}
+i:hover {
+  color: rgb(255, 83, 83);
+  transform: scale(1.5, 1.5);
+}
+.company1 {
+  margin: 0px 0 0 -15px;
+}
+.Destination1 {
+  margin: 0px 0 0 -15px;
+}
