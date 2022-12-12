@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "../../ჩემთვის სავარჯიშოები/css ბურგერ მენუ"
+    },
+    {
+      "path": "../home"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "css ბურგერ მენუ"
+  }
+}
