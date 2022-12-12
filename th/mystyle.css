@@ -131,7 +131,7 @@ body {
               }
               .image:hover {
                   
-                  
+
                   transform: scale(0.9);
                   transition:  transform 0.5s;
               }
@@ -214,6 +214,7 @@ i:hover {
   flex-wrap:wrap;
   justify-content: center;  /* vertical alignment */
   align-items: center;      /* horizontal alignment */
+  
 }
 .blogs{
  display: flex;
@@ -223,4 +224,11 @@ i:hover {
 .blog-font{
   font-size: 40px;
 }
+.blog-image:hover{
+  box-shadow: 0px 0px 10px black;
+  transform: scale(0.9);
+  transition:  transform 0.5s;
+}
+
+
 
